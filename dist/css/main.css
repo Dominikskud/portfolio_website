@@ -388,7 +388,12 @@ img {
     border: 2px solid #86afe8; }
 
 #contact-a button[type="submit"] {
-  width: 75%; }
+  width: 75%;
+  letter-spacing: 3px;
+  font-size: 1rem; }
+
+#contact-a button[type="submit"]:hover {
+  background: #86afe8; }
 
 #contact-b .contact-info {
   display: flex;
@@ -402,7 +407,7 @@ img {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3.5rem; }
 
 #main-footer {
   background: #333;
